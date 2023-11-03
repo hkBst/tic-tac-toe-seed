@@ -1,0 +1,10 @@
+[package]
+name = "tic-tac-toe-seed"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tic-tac-toe = { git = "https://github.com/hkBst/tic-tac-toe" }
+seed = "0.10.0"
