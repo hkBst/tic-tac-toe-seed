@@ -1,9 +1,7 @@
-name: Rust
+name: Build and Deploy to Github Pages
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
     branches: [ "main" ]
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
