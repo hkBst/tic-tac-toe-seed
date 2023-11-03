@@ -10,7 +10,10 @@ env:
   CARGO_TERM_COLOR: always
 
 jobs:
-  build:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
     - name: Set up cache
